@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora On-line</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./styles/assets/Favicon.png" type="image/x-icon/png">
+    
+    <script defer src="./scripts/script.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body id="body">
+    
+    <div id="content">
+            <header>
+                <button class="action__header"></button>
+                <button class="action__header"></button>
+                <button class="action__header"></button>
+            </header>
+        
+            <section id="result">
+                <p></p>
+
+                <div id="screen">
+                    <span></span>
+                    <p>0</p>
+                </div>
+            </section>
+
+            <hr>
+                
+            <main>
+                <button id="percentage" class="operation"><p>%</p></button>
+                <button class="operation"><p>(</p></button>
+                <button class="operation"><p>)</p></button>
+                <button>
+                    <ion-icon name="backspace-outline"></ion-icon>
+                </button>
+                <button id="plus" class="operation"><p>+</p></button>
+                <button id="less" class="operation"><p>-</p></button>
+                <button id="multiplication" class="operation"><p class="textTransform">x</p></button>
+                <button id="division" class="operation"><p>÷</p></button>
+                <button id="numberSeven"><p class="textColor">7</p></button>
+                <button id="numberEight"><p class="textColor">8</p></button>
+                <button id="numberNine"><p class="textColor">9</p></button>
+                <button><p class="textTransform redText">c</p></button>
+                <button id="numberFour"><p class="textColor">4</p></button>
+                <button id="numberFive"><p class="textColor">5</p></button>
+                <button id="numberSix"><p class="textColor">6</p></button>
+                <button><p class="textTransform redText">ac</p></button>
+                <button id="numberOne"><p class="textColor">1</p></button>
+                <button id="numberTwo"><p class="textColor">2</p></button>
+                <button id="numberThree"><p class="textColor">3</p></button>
+                <button id="equal_action"><p>=</p></button>
+                <button id="negativeNumberAction"><p class="textColor">+/-</p></button>
+                <button id="numberZero"><p class="textColor">0</p></button>
+                <button id="comma"><p class="textColor">,</p></button>
+            </main>
+    </div>
+    
+</body>
+</html>
